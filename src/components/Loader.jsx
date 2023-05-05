@@ -22,7 +22,7 @@ function Loader() {
       {Loader ? (
         <section
           style={{ zIndex: "399999" }}
-          className=" position-fixed top-0 start-0  h-100 w-100 bg-black"
+          className="position-fixed top-0 start-0  h-100 w-100 bg-black"
         >
           <div id="loader-1">
             <div className="loader-content"></div>

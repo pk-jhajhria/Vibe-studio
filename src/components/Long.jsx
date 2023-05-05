@@ -14,7 +14,7 @@ function Long() {
           <div className="row">
             <div className="col-lg-6">
               <h2
-                className=" ff_konexy fw-normal fs_4xl text_black pt-4 mb-0"
+                className="ff_konexy fw-normal fs_4xl text_black pt-4 mb-0"
                 data-aos="fade-down"
                 data-aos-easing="ease-in"
                 data-aos-duration="1000"
@@ -23,7 +23,7 @@ function Long() {
                 Long Term WordPress Partner
               </h2>
               <p
-                className=" ff_gilroy_normal fw-normal fs_xl mb-0 text-black opacity-75 mt-3 pt-1"
+                className="ff_gilroy_normal fw-normal fs_xl mb-0 text-black opacity-75 mt-3 pt-1"
                 data-aos="fade-right"
                 data-aos-easing="ease-in"
                 data-aos-duration="1000"
@@ -44,7 +44,7 @@ function Long() {
                 data-aos-duration="800"
                 data-aos-delay="500"
               >
-                <img className="  w_85 w_md_100 pe-3" src={long1} alt="long1" />
+                <img className="w_85 w_md_100 pe-3" src={long1} alt="long1" />
               </div>
               <div
                 className="col-2"
@@ -53,7 +53,7 @@ function Long() {
                 data-aos-duration="1000"
                 data-aos-delay="500"
               >
-                <img className="  w_85 w_md_100 px-3" src={long2} alt="long2" />
+                <img className="w_85 w_md_100 px-3" src={long2} alt="long2" />
               </div>
               <div
                 className="col-2"
@@ -62,7 +62,7 @@ function Long() {
                 data-aos-duration="1200"
                 data-aos-delay="500"
               >
-                <img className="  w_85 w_md_100 px-3" src={long3} alt="long3" />
+                <img className="w_85 w_md_100 px-3" src={long3} alt="long3" />
               </div>
               <div
                 className="col-2"
@@ -71,7 +71,7 @@ function Long() {
                 data-aos-duration="1400"
                 data-aos-delay="500"
               >
-                <img className="  w_85 w_md_100 px-3" src={long4} alt="long4" />
+                <img className="w_85 w_md_100 px-3" src={long4} alt="long4" />
               </div>
               <div
                 className="col-2"
@@ -80,7 +80,7 @@ function Long() {
                 data-aos-duration="1600"
                 data-aos-delay="500"
               >
-                <img className="  w_85 w_md_100 px-3" src={long5} alt="long5" />
+                <img className="w_85 w_md_100 px-3" src={long5} alt="long5" />
               </div>
               <div
                 className="col-2"
@@ -89,7 +89,7 @@ function Long() {
                 data-aos-duration="1800"
                 data-aos-delay="500"
               >
-                <img className="  w_85 w_md_100 ps-3" src={long6} alt="long6" />
+                <img className="w_85 w_md_100 ps-3" src={long6} alt="long6" />
               </div>
             </div>
           </div>

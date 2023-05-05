@@ -12,7 +12,7 @@ function Featured() {
       <section className="bg_light_white py-sm-5 py-4 overflow-hidden">
         <div className="container">
           <h2
-            className=" ff_konexy fw-normal fs_4xl text_black pt-4"
+            className="ff_konexy fw-normal fs_4xl text_black pt-4"
             data-aos="fade-right"
             data-aos-easing="ease-in"
             data-aos-duration="1500"
@@ -29,7 +29,7 @@ function Featured() {
                 data-aos-delay="500"
               >
                 <img
-                  className=" w_85 w_md_100 pe-3"
+                  className="w_85 w_md_100 pe-3"
                   src={yahoo_img}
                   alt="yahoo_img"
                 />
@@ -42,7 +42,7 @@ function Featured() {
                 data-aos-delay="500"
               >
                 <img
-                  className=" w_85 w_md_100 px-3"
+                  className="w_85 w_md_100 px-3"
                   src={finance}
                   alt="finance"
                 />
@@ -54,7 +54,7 @@ function Featured() {
                 data-aos-duration="1200"
                 data-aos-delay="500"
               >
-                <img className="  w_85 w_md_100 px-3" src={news} alt="news" />
+                <img className="w_85 w_md_100 px-3" src={news} alt="news" />
               </div>
               <div
                 className="col-2"
@@ -63,11 +63,7 @@ function Featured() {
                 data-aos-duration="1400"
                 data-aos-delay="500"
               >
-                <img
-                  className="  w_85 w_md_100 px-3"
-                  src={topics}
-                  alt="topics"
-                />
+                <img className="w_85 w_md_100 px-3" src={topics} alt="topics" />
               </div>
               <div
                 className="col-2"
@@ -76,7 +72,7 @@ function Featured() {
                 data-aos-duration="1600"
                 data-aos-delay="500"
               >
-                <img className="  w_85 w_md_100 px-3" src={life} alt="life" />
+                <img className="w_85 w_md_100 px-3" src={life} alt="life" />
               </div>
               <div
                 className="col-2"
@@ -86,7 +82,7 @@ function Featured() {
                 data-aos-delay="500"
               >
                 <img
-                  className="  w_85 w_md_100 ps-3"
+                  className="w_85 w_md_100 ps-3"
                   src={trending}
                   alt="trending"
                 />

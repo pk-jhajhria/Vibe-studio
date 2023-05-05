@@ -5,21 +5,21 @@ import girl_img from "../assets/img/png/girl img.png";
 function Work() {
   return (
     <>
-      <section className=" py-lg-5 bg_black position-relative">
+      <section className="py-lg-5 bg_black position-relative">
         <div className="blue_shadow z_index_1"></div>
         <div className="blue_shadow_2 z_index_1"></div>
         <div className="container py-sm-5 py-4">
           <div className="row justify-content-between mt-sm-4 pb-sm-5">
             <div className="col-lg-5">
               <h2
-                className=" ff_konexy fw-normal fs_4xl text_white mb-0"
+                className="ff_konexy fw-normal fs_4xl text_white mb-0"
                 data-aos="fade-right"
                 data-aos-easing="ease-in"
                 data-aos-duration="1000"
                 data-aos-delay="500"
               >
                 All Vipe Studio WordPress services include
-                <span className=" fw-semibold ff_inter">:</span>
+                <span className="fw-semibold ff_inter">:</span>
               </h2>
             </div>
             <div className="col-lg-7">
@@ -31,7 +31,7 @@ function Work() {
                   data-aos-duration="1000"
                   data-aos-delay="500"
                 >
-                  <p className=" ff_gilroy_semibold fw-semibold fs_2xl text_white mb-0">
+                  <p className="ff_gilroy_semibold fw-semibold fs_2xl text_white mb-0">
                     By Industry
                   </p>
                   <div className="d-flex align-items-center mt-4">
@@ -48,7 +48,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Lorem in elementum pellentesque
                     </p>
                   </div>
@@ -66,7 +66,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Molestie cursus praesent mi
                     </p>
                   </div>
@@ -84,7 +84,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Leo sed viverra cras
                     </p>
                   </div>
@@ -102,7 +102,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Laoreet feugiat ut at
                     </p>
                   </div>
@@ -120,7 +120,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Risus aliquam molestie viverra
                     </p>
                   </div>
@@ -138,7 +138,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Diam enim pulvinar velit
                     </p>
                   </div>
@@ -150,7 +150,7 @@ function Work() {
                   data-aos-duration="1000"
                   data-aos-delay="500"
                 >
-                  <p className=" ff_gilroy_semibold fw-semibold fs_2xl text_white mb-0 mt-4 mt-sm-0">
+                  <p className="ff_gilroy_semibold fw-semibold fs_2xl text_white mb-0 mt-4 mt-sm-0">
                     By Services
                   </p>
                   <div className="d-flex align-items-center mt-4 z_index_4 position-relative">
@@ -167,7 +167,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Accumsan, dui a semper
                     </p>
                   </div>
@@ -185,7 +185,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Interdum malesuada vulputate neque
                     </p>
                   </div>
@@ -203,7 +203,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Nullam non a, morbi
                     </p>
                   </div>
@@ -221,7 +221,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Arcu morbi leo eu
                     </p>
                   </div>
@@ -239,7 +239,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Viverra venenatis, in ornare
                     </p>
                   </div>
@@ -257,7 +257,7 @@ function Work() {
                         fill="#6022EA"
                       />
                     </svg>
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Erat id aliquam habitant
                     </p>
                   </div>
@@ -267,9 +267,9 @@ function Work() {
           </div>
           <div className="row  mt-5 box py-sm-5 pt-lg-5 pt-3 pt-sm-0 pb-3 pb-sm-0 rounded_sm_4 bg_primary z_index_4 mt-sm-5 position-relative row_black_shadow">
             <div className="col-lg-4 z_index_4 position-relative py-lg-4">
-              <div className=" px-lg-3 mt-3">
+              <div className="px-lg-3 mt-3">
                 <h2
-                  className=" ff_konexy fw-normal fs_3xl text_white pe-xl-5 mb-0 me-xxl-4"
+                  className="ff_konexy fw-normal fs_3xl text_white pe-xl-5 mb-0 me-xxl-4"
                   data-aos="fade-down"
                   data-aos-easing="ease-in"
                   data-aos-duration="1000"
@@ -278,7 +278,7 @@ function Work() {
                   Not Sure which service you need yet?{" "}
                 </h2>
                 <a
-                  className=" d-inline-block bg_primary text_white ff_gilroy_semibold fs_xl px-4 py-2 rounded-5 mt-lg-5 mt-4 btn_hover border_transperent"
+                  className="d-inline-block bg_primary text_white ff_gilroy_semibold fs_xl px-4 py-2 rounded-5 mt-lg-5 mt-4 btn_hover border_transperent"
                   data-aos="fade-up"
                   data-aos-easing="ease-in"
                   data-aos-duration="1000"
@@ -298,46 +298,46 @@ function Work() {
                   data-aos-duration="1000"
                   data-aos-delay="500"
                 >
-                  <p className=" ff_gilroy_bold fs_2xl fw-bold text_white mb-0 mt-3">
+                  <p className="ff_gilroy_bold fs_2xl fw-bold text_white mb-0 mt-3">
                     20-m free consultation that will help us identifyif you need{" "}
                   </p>
                   <div className="d-flex align-items-center mt-4">
                     <img
-                      className=" cursor_pointer"
+                      className="cursor_pointer"
                       src={tick_arrow}
                       alt="tick_arrow"
                     />
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Technical Description & Discovery
                     </p>
                   </div>
                   <div className="d-flex align-items-center mt-3">
                     <img
-                      className=" cursor_pointer"
+                      className="cursor_pointer"
                       src={tick_arrow}
                       alt="tick_arrow"
                     />
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Custom WordPress Development
                     </p>
                   </div>
                   <div className="d-flex align-items-center mt-3">
                     <img
-                      className=" cursor_pointer"
+                      className="cursor_pointer"
                       src={tick_arrow}
                       alt="tick_arrow"
                     />
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Support & Maintenance
                     </p>
                   </div>
                   <div className="d-flex align-items-center mt-3">
                     <img
-                      className=" cursor_pointer"
+                      className="cursor_pointer"
                       src={tick_arrow}
                       alt="tick_arrow"
                     />
-                    <p className=" mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
+                    <p className="mb-0 ff_gilroy_normal ms-2 ps-1 fw-normal fs_xl text_white cursor_pointer">
                       Other WordPress Service
                     </p>
                   </div>
@@ -350,7 +350,7 @@ function Work() {
                   data-aos-delay="500"
                 >
                   <img
-                    className=" w-100 mt-4 mt-sm-0 pt-xl-2"
+                    className="w-100 mt-4 mt-sm-0 pt-xl-2"
                     src={girl_img}
                     alt="girl_img"
                   />

@@ -16,7 +16,7 @@ const Backtotop = () => {
     });
   }, []);
   return (
-    <div className=" overflow-hidden">
+    <div className="overflow-hidden">
       <span
         id="btn"
         onClick={() => top()}
@@ -27,7 +27,7 @@ const Backtotop = () => {
             : "btn d-none position-fixed end-0 bottom-0 mb-2 me-2 bg_gradient_btn"
         }
       >
-        <img className=" w_50" src={bt_button} alt="bt_button" />
+        <img className="w_50" src={bt_button} alt="bt_button" />
       </span>
     </div>
   );

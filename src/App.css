@@ -24,7 +24,7 @@
   color: #6022ea !important;
   background-color: white !important;
 }
-.btn-success {
+#navbar .btn-success {
   --bs-btn-color: #fff;
   --bs-btn-bg: transparent !important;
   --bs-btn-border-color: transparent !important;

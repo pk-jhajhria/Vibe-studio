@@ -9,13 +9,13 @@ import five_star from "../assets/img/svg/5 star.svg";
 function Header() {
   return (
     <>
-      <section className=" bg_black header_section py-5 position-relative">
+      <section className="bg_black header_section py-5 position-relative">
         <div className="blue_shadow_hero_2 z_index_1"></div>
         <div className="container z_index_4 position-relative">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h1
-                className=" text_white mb-0 ff_konexy fw-normal fs_7xl hero_text_after position-relative"
+                className="text_white mb-0 ff_konexy fw-normal fs_7xl hero_text_after position-relative"
                 data-aos="fade-right"
                 data-aos-easing="ease-in"
                 data-aos-duration="2000"
@@ -24,7 +24,7 @@ function Header() {
                 WordPress Development Agency
               </h1>
               <h3
-                className=" ff_gilroy_bold fw-bold fs_2xl text_white mb-0 mt-4 pt-1"
+                className="ff_gilroy_bold fw-bold fs_2xl text_white mb-0 mt-4 pt-1"
                 data-aos="fade-left"
                 data-aos-easing="ease-in"
                 data-aos-duration="2000"
@@ -33,7 +33,7 @@ function Header() {
                 for Enterprise + Friendly Team{" "}
               </h3>
               <p
-                className=" ff_gilroy_normal fw-normal fs_xl mb-0 mt-4 text_gray_b2 pe-xxl-5 z_index_3 position-relative"
+                className="ff_gilroy_normal fw-normal fs_xl mb-0 mt-4 text_gray_b2 pe-xxl-5 z_index_3 position-relative"
                 data-aos="fade-right"
                 data-aos-easing="ease-in"
                 data-aos-duration="2000"
@@ -45,7 +45,7 @@ function Header() {
               </p>
               <div className="d-flex align-items-center mt-4 pt-1">
                 <a
-                  className=" hero_btn border_transperent ff_gilroy_semibold fw-semibold fs_xl text_white d-inline-block"
+                  className="hero_btn border_transperent ff_gilroy_semibold fw-semibold fs_xl text_white d-inline-block"
                   data-aos="fade-right"
                   data-aos-easing="ease-in"
                   data-aos-duration="2000"
@@ -55,14 +55,14 @@ function Header() {
                   Get Started
                 </a>
                 <a
-                  className=" ff_gilroy_normal fw-normal fs_xl d-inline-block text_gray_b2 ms-sm-4 ms-2 vdo_btn border_transperent rounded-5"
+                  className="ff_gilroy_normal fw-normal fs_xl d-inline-block text_gray_b2 ms-sm-4 ms-2 vdo_btn border_transperent rounded-5"
                   data-aos="fade-left"
                   data-aos-easing="ease-in"
                   data-aos-duration="2000"
                   data-aos-delay="300"
                   href="#"
                 >
-                  <img className=" me-2 pe-lg-1 " src={vdo_btn} alt="vdo_btn" />
+                  <img className="me-2 pe-lg-1 " src={vdo_btn} alt="vdo_btn" />
                   What is Vipe? (1min)
                 </a>
               </div>
@@ -81,16 +81,16 @@ function Header() {
                   alt="text_star"
                 />
                 <img
-                  className=" mt-1 star_h_w"
+                  className="mt-1 star_h_w"
                   src={five_star}
                   alt="five_star"
                 />
-                <p className=" fw-normal ff_jost fs_xl mb-0 text_white mt-2">
+                <p className="fw-normal ff_jost fs_xl mb-0 text_white mt-2">
                   Rated 5.0 Excellent
                 </p>
               </div>
               <img
-                className=" w-100 transform_translet_x mt-4 mt-lg-0"
+                className="w-100 transform_translet_x mt-4 mt-lg-0"
                 src={hero_img}
                 alt="hero_img"
               />
@@ -103,7 +103,7 @@ function Header() {
           <div className="row  py-5 justify-content-between">
             <div className="col-lg-6">
               <h2
-                className=" ff_konexy fw-normal fs_3xxl text_white mb-0"
+                className="ff_konexy fw-normal fs_3xxl text_white mb-0"
                 data-aos="fade-down"
                 data-aos-easing="ease-in"
                 data-aos-duration="1500"
@@ -111,7 +111,7 @@ function Header() {
                 Tell us more....
               </h2>
               <p
-                className=" ff_gilroy_normal fw-normal fs_xl text_white mt-4 mb-0 pe-4"
+                className="ff_gilroy_normal fw-normal fs_xl text_white mt-4 mb-0 pe-4"
                 data-aos="fade-up"
                 data-aos-easing="ease-in"
                 data-aos-duration="1500"
@@ -123,13 +123,13 @@ function Header() {
             </div>
             <div className="col-lg-5">
               <span
-                className=" d-flex align-items-center bg_browm  rounded-5 pe-3 input_border mt-4 mt-lg-0"
+                className="d-flex align-items-center bg_browm  rounded-5 pe-3 input_border mt-4 mt-lg-0"
                 data-aos="fade-left"
                 data-aos-easing="ease-in"
                 data-aos-duration="1500"
               >
                 <input
-                  className=" w-100  bg-transparent ff_gilroy_normal fw-normal  fs_xl text_gray_b2 outline_none border_none  py-sm-3 py-2 px-3"
+                  className="w-100  bg-transparent ff_gilroy_normal fw-normal  fs_xl text_gray_b2 outline_none border_none  py-sm-3 py-2 px-3"
                   type="text"
                   placeholder="What do you need assistance with?		"
                 />
@@ -145,19 +145,17 @@ function Header() {
                   data-aos-duration="1500"
                 >
                   <a href="#">
-                    {" "}
                     <img src={spiner} alt="spiner" />
                   </a>
                   <a
-                    className=" mb-0 ff_gilroy_normal fw-normal fs_xl text_white ms-2 text_hover transition"
+                    className="mb-0 ff_gilroy_normal fw-normal fs_xl text_white ms-2 text_hover transition"
                     href="#"
                   >
-                    {" "}
                     or send us an inquire?
                   </a>
                 </div>
                 <a
-                  className=" ff_gilroy_normal fw-normal fs_xl mb-0 text_white text_hover transition"
+                  className="ff_gilroy_normal fw-normal fs_xl mb-0 text_white text_hover transition"
                   data-aos="fade-left"
                   data-aos-easing="ease-in"
                   data-aos-duration="1500"

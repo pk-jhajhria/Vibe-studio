@@ -13,7 +13,7 @@ function Nav() {
 
   return (
     <>
-      <section className="position-relative">
+      <section className="position-relative" id="navbar">
         <nav className=" z_index_3 position-relative rounded-2 py-lg-3">
           <div
             className=""
@@ -22,10 +22,8 @@ function Nav() {
             data-aos-duration="900"
           >
             <div className="container">
-              {" "}
               <div className="d-flex justify-content-between align-items-center w-100">
                 <div className="d-flex gap-5 align-items-center justify-content-center">
-                  {" "}
                   <a
                     className="ff_inter fw-bold fs_2xl text-white z_index1 my-2"
                     href="#"
@@ -34,7 +32,6 @@ function Nav() {
                   </a>{" "}
                   <ul className="d-flex gap-xl-3 gap-2 gap-xl-4 ps-4 py-3 list-unstyled d-none d-xl-flex align-items-center mb-0 justify-content-end">
                     <Dropdown className="dropdown_hover">
-                      {" "}
                       <Dropdown.Toggle
                         variant="success"
                         id="dropdown-basic"
@@ -49,7 +46,6 @@ function Nav() {
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                           >
-                            {" "}
                             <path
                               d="M12.6663 5.6665L7.99967 10.3332L3.33301 5.6665"
                               stroke=" white"
@@ -61,10 +57,7 @@ function Nav() {
                         </div>
                       </Dropdown.Toggle>{" "}
                       <Dropdown.Menu>
-                        {" "}
-                        <Dropdown.Item href="#/action-1">
-                          Action{" "}
-                        </Dropdown.Item>{" "}
+                        <Dropdown.Item href="#/action-1">Action </Dropdown.Item>{" "}
                         <Dropdown.Item href="#/action-2">
                           Another action{" "}
                         </Dropdown.Item>{" "}
@@ -74,7 +67,6 @@ function Nav() {
                       </Dropdown.Menu>{" "}
                     </Dropdown>
                     <Dropdown className="dropdown_hover">
-                      {" "}
                       <Dropdown.Toggle
                         variant="success"
                         id="dropdown-basic"
@@ -89,7 +81,6 @@ function Nav() {
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                           >
-                            {" "}
                             <path
                               d="M12.6663 5.6665L7.99967 10.3332L3.33301 5.6665"
                               stroke=" white"
@@ -101,10 +92,7 @@ function Nav() {
                         </div>
                       </Dropdown.Toggle>{" "}
                       <Dropdown.Menu>
-                        {" "}
-                        <Dropdown.Item href="#/action-1">
-                          Action{" "}
-                        </Dropdown.Item>{" "}
+                        <Dropdown.Item href="#/action-1">Action </Dropdown.Item>{" "}
                         <Dropdown.Item href="#/action-2">
                           Another action{" "}
                         </Dropdown.Item>{" "}
@@ -122,7 +110,6 @@ function Nav() {
                       </a>
                     </span>
                     <Dropdown className="dropdown_hover">
-                      {" "}
                       <Dropdown.Toggle
                         variant="success"
                         id="dropdown-basic"
@@ -137,7 +124,6 @@ function Nav() {
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                           >
-                            {" "}
                             <path
                               d="M12.6663 5.6665L7.99967 10.3332L3.33301 5.6665"
                               stroke=" white"
@@ -149,10 +135,7 @@ function Nav() {
                         </div>
                       </Dropdown.Toggle>{" "}
                       <Dropdown.Menu>
-                        {" "}
-                        <Dropdown.Item href="#/action-1">
-                          Action{" "}
-                        </Dropdown.Item>{" "}
+                        <Dropdown.Item href="#/action-1">Action </Dropdown.Item>{" "}
                         <Dropdown.Item href="#/action-2">
                           Another action{" "}
                         </Dropdown.Item>{" "}
@@ -189,7 +172,6 @@ function Nav() {
                   <div className="d-flex">
                     <img className="cursor_pointer" src={globel} alt="globel" />
                     <Dropdown className="dropdown_hover">
-                      {" "}
                       <Dropdown.Toggle
                         variant="success"
                         id="dropdown-basic"
@@ -204,7 +186,6 @@ function Nav() {
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                           >
-                            {" "}
                             <path
                               d="M12.6663 5.6665L7.99967 10.3332L3.33301 5.6665"
                               stroke=" white"
@@ -216,10 +197,7 @@ function Nav() {
                         </div>
                       </Dropdown.Toggle>{" "}
                       <Dropdown.Menu>
-                        {" "}
-                        <Dropdown.Item href="#/action-1">
-                          Hindi{" "}
-                        </Dropdown.Item>{" "}
+                        <Dropdown.Item href="#/action-1">Hindi </Dropdown.Item>{" "}
                         <Dropdown.Item href="#/action-2">
                           Punjabi{" "}
                         </Dropdown.Item>{" "}
@@ -255,10 +233,8 @@ function Nav() {
               <div className={` ${navShow ? "shownav" : " hidenav"}`}>
                 <div className="d-flex flex-column">
                   <div className="container">
-                    {" "}
                     <ul className="d-flex gap-xl-3 gap-2 gap-xl-4 py-3 list-unstyled d-xl-none flex-column align-items-center mb-0 justify-content-end">
                       <Dropdown className="dropdown_hover">
-                        {" "}
                         <Dropdown.Toggle
                           variant="success"
                           id="dropdown-basic"
@@ -273,7 +249,6 @@ function Nav() {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              {" "}
                               <path
                                 d="M12.6663 5.6665L7.99967 10.3332L3.33301 5.6665"
                                 stroke=" white"
@@ -285,7 +260,6 @@ function Nav() {
                           </div>
                         </Dropdown.Toggle>{" "}
                         <Dropdown.Menu>
-                          {" "}
                           <Dropdown.Item
                             onClick={() => setNavShow(!navShow)}
                             href="#/action-1"
@@ -307,7 +281,6 @@ function Nav() {
                         </Dropdown.Menu>{" "}
                       </Dropdown>
                       <Dropdown className="dropdown_hover">
-                        {" "}
                         <Dropdown.Toggle
                           variant="success"
                           id="dropdown-basic"
@@ -322,7 +295,6 @@ function Nav() {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              {" "}
                               <path
                                 d="M12.6663 5.6665L7.99967 10.3332L3.33301 5.6665"
                                 stroke=" white"
@@ -334,7 +306,6 @@ function Nav() {
                           </div>
                         </Dropdown.Toggle>{" "}
                         <Dropdown.Menu>
-                          {" "}
                           <Dropdown.Item
                             onClick={() => setNavShow(!navShow)}
                             href="#/action-1"
@@ -365,7 +336,6 @@ function Nav() {
                         </a>
                       </span>
                       <Dropdown className="dropdown_hover">
-                        {" "}
                         <Dropdown.Toggle
                           variant="success"
                           id="dropdown-basic"
@@ -380,7 +350,6 @@ function Nav() {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              {" "}
                               <path
                                 d="M12.6663 5.6665L7.99967 10.3332L3.33301 5.6665"
                                 stroke=" white"
@@ -392,7 +361,6 @@ function Nav() {
                           </div>
                         </Dropdown.Toggle>{" "}
                         <Dropdown.Menu>
-                          {" "}
                           <Dropdown.Item
                             onClick={() => setNavShow(!navShow)}
                             href="#/action-1"
@@ -446,7 +414,6 @@ function Nav() {
                         alt="globel"
                       />
                       <Dropdown className="dropdown_hover">
-                        {" "}
                         <Dropdown.Toggle
                           variant="success"
                           id="dropdown-basic"
@@ -461,7 +428,6 @@ function Nav() {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              {" "}
                               <path
                                 d="M12.6663 5.6665L7.99967 10.3332L3.33301 5.6665"
                                 stroke=" white"
@@ -473,7 +439,6 @@ function Nav() {
                           </div>
                         </Dropdown.Toggle>{" "}
                         <Dropdown.Menu>
-                          {" "}
                           <Dropdown.Item
                             onClick={() => setNavShow(!navShow)}
                             href="#/action-1"
